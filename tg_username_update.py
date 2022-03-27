@@ -47,7 +47,7 @@ async def change_name_auto():
         try:
             time_cur = strftime("%H:%M:%S:%p:%a", time.localtime())
             hour, minu, seco, p, abbwn = time_cur.split(':')
-            if seco=='00' or seco=='10'or seco=='20' or seco=='30' or seco=='40' or seco=='50':
+            if seco=='00' or seco=='5'or seco=='10' or seco=='15' or seco=='20' or seco=='25'or seco=='30'or seco=='35'or seco=='40'or seco=='45'or seco=='50':
                 shift = 0
                 mult = 1
                 if int(minu)>30: shift=1
