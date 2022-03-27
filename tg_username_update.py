@@ -47,7 +47,7 @@ async def change_name_auto():
         try:
             time_cur = strftime("%H:%M:%S:%p:%a", time.localtime())
             hour, minu, seco, p, abbwn = time_cur.split(':')
-            if seco=='00' or seco=='30':
+            if seco=='00' or seco=='10'or seco=='20' or seco=='30' or seco=='40' or seco=='50':
                 shift = 0
                 mult = 1
                 if int(minu)>30: shift=1
@@ -70,7 +70,7 @@ async def change_name_auto():
                     last_name = '可爱又迷人的反派角色 '
                 else:
                     last_name = '我们是穿梭在银河的火箭队！'
-                first_name = '大脑斧 %s:%s %s UTC+8 ' % (hour, minu, p)
+                first_name = '大脑斧 %s:%s  ' % (hour, minu)
 
         
                 await client1(UpdateProfileRequest(first_name=first_name,last_name=last_name))
