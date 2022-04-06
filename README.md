@@ -4,7 +4,7 @@ Update (first/last/user) name of Telegram user every 30 seconds.
 
 参考文档：<a href="https://telethon.readthedocs.io/en/stable/">Telethon</a>
 
-lastname实时更新效果：<a href="https://t.me/JiuMeng">旧梦</a>
+name实时更新效果：<a href="https://t.me/kongle6">大脑斧</a>
 
 ## 0. 准备
 
@@ -14,8 +14,8 @@ lastname实时更新效果：<a href="https://t.me/JiuMeng">旧梦</a>
 
 ## 1. 下载Demo小程序到VPS上
 
-<code>git clone https://github.com/8838/Telegram-Name-Updating.git</code>\
-<code>cd Telegram-Name-Updating</code>
+<code>git clone https://github.com/8838/Telegram-Name-Updating-word.git</code>\
+<code>cd Telegram-Name-Updating-word</code>
 
 ## 2. 安装telethon
 
@@ -27,4 +27,4 @@ lastname实时更新效果：<a href="https://t.me/JiuMeng">旧梦</a>
 
 ## 4. api认证和用户登陆
 
-根据提示输入api_id和api_hash。接着输入手机号和验证码，如果账号开启了二次验，证根据提示再输入二次验证的密码。最后看到 It works! 表明成功了。 默认的是每30秒钟按照一定概率更新一次lastname到特定模式。
+根据提示输入api_id和api_hash。接着输入手机号和验证码，如果账号开启了二次验，证根据提示再输入二次验证的密码。最后看到 It works! 表明成功了。 默认的是每20秒钟按照一定概率更新一次name到特定模式。
