@@ -28,3 +28,6 @@ name实时更新效果：<a href="https://t.me/kongle6">大脑斧</a>
 ## 4. api认证和用户登陆
 
 根据提示输入api_id和api_hash。接着输入手机号和验证码，如果账号开启了二次验，证根据提示再输入二次验证的密码。最后看到 It works! 表明成功了。 默认的是每20秒钟按照一定概率更新一次name到特定模式。
+
+## 5. 原版链接
+<code>https://github.com/8838/Telegram-Name-Updating</code>
