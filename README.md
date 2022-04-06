@@ -14,7 +14,7 @@ name实时更新效果：<a href="https://t.me/kongle6">大脑斧</a>
 
 ## 1. 下载Demo小程序到VPS上
 
-<code>git clone https://github.com/8838/Telegram-Name-Updating.git</code>\
+<code>git clone https://github.com/oits666/Telegram-Name-Updating.git</code>\
 <code>cd Telegram-Name-Updating-word</code>
 
 ## 2. 安装telethon
